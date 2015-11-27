@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script data-main="js/main" src="components/requirejs/require.js"></script>
+    <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #riderInputWrapper {
+        width: 70%;
+        margin: 50px auto;
+        position: relative;
+        text-align: center;
+      }
+      input#cityName {
+        width: 80%;
+        height: 30px;
+        font-size: 25px;
+        padding: 5px 10px;
+        margin: 10px;
+      }
+      #setLocation {
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      #userInteraction {
+        top: 0;
+        font-size: 30px;
+        height: 50vh;
+        width: 100vw;
+        background: white;
+        position: relative;
+      }
+      #mapWrapper {
+        position: absolute;
+        width: 100vw;
+        height: 50vh;
+        bottom: 0px;
+        background: red;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="app">
+      <div id="header"><a href="#" data-target='driver'>Driver</a> <a href="#" data-target='rider'>Rider</a></div>
+      <div id="content"></div>
+    </section>
+  </body>
+</html>
